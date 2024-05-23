@@ -10,4 +10,7 @@
   (lib (name "pg1425")(type "KiCad")(uri "${KIPRJMOD}/kleeb/pg1425.pretty")(options "")(descr ""))
   (lib (name "sensor")(type "KiCad")(uri "${KIPRJMOD}/kleeb/sensor.pretty")(options "")(descr ""))
   (lib (name "switch")(type "KiCad")(uri "${KIPRJMOD}/kleeb/switch.pretty")(options "")(descr ""))
+  (lib (name "kicad-footprints")(type "KiCad")(uri "${KIPRJMOD}/kbd/kicad-footprints")(options "")(descr ""))
+  (lib (name "kicad-packages3D")(type "KiCad")(uri "${KIPRJMOD}/kbd/kicad-packages3D")(options "")(descr ""))
+  (lib (name "kicad-symbols")(type "KiCad")(uri "${KIPRJMOD}/kbd/kicad-symbols")(options "")(descr ""))
 )

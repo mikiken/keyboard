@@ -6,4 +6,5 @@
   (lib (name "misc")(type "KiCad")(uri "${KIPRJMOD}/kleeb/misc.kicad_sym")(options "")(descr ""))
   (lib (name "sensor")(type "KiCad")(uri "${KIPRJMOD}/kleeb/sensor.kicad_sym")(options "")(descr ""))
   (lib (name "switch")(type "KiCad")(uri "${KIPRJMOD}/kleeb/switch.kicad_sym")(options "")(descr ""))
+  (lib (name "kbd")(type "KiCad")(uri "${KIPRJMOD}/kbd/kicad-symbols/kbd.kicad_sym")(options "")(descr ""))
 )
