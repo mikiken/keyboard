@@ -5179,7 +5179,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_2.00u_Vertical_Plate"
+		(property "Footprint" "kbd:keyswitch_cherrymx_hotswap_2u_vertical"
 			(at 143.51 137.16 0)
 			(effects
 				(font
@@ -7769,7 +7769,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_2.00u_Plate"
+		(property "Footprint" "kbd:keyswitch_cherrymx_hotswap_2u"
 			(at 93.98 137.16 0)
 			(effects
 				(font
