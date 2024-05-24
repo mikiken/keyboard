@@ -11,4 +11,6 @@
   (lib (name "sensor")(type "KiCad")(uri "${KIPRJMOD}/kleeb/sensor.pretty")(options "")(descr ""))
   (lib (name "switch")(type "KiCad")(uri "${KIPRJMOD}/kleeb/switch.pretty")(options "")(descr ""))
   (lib (name "kbd")(type "KiCad")(uri "${KIPRJMOD}/kbd/kicad-footprints/kbd.pretty")(options "")(descr ""))
+  (lib (name "Button_Switch_Keyboard")(type "KiCad")(uri "${KIPRJMOD}/keyboard-layouter-playground/kicad-footprints/Button_Switch_Keyboard.pretty")(options "")(descr ""))
+  (lib (name "Diode_SMD")(type "KiCad")(uri "${KIPRJMOD}/keyboard-layouter-playground/kicad-footprints/Diode_SMD.pretty")(options "")(descr ""))
 )
