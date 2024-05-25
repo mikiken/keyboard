@@ -136,7 +136,7 @@
 	(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "053feb05-eb9c-4695-b599-898c30b66129")
-		(at 189.219 63.385)
+		(at 187.68 70.255)
 		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R1"
@@ -654,11 +654,11 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "5d3140da-ec91-4808-a9fb-5b799224b0f3")
-		(at 189.372 79.121)
+		(at 196.215 74.295)
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
 		(property "Reference" "J3"
-			(at -38.8815 -9.43 -0)
+			(at -38.8815 -9.43 0)
 			(layer "B.SilkS")
 			(uuid "62ba1381-3b57-41ec-a923-9a6e50fd11be")
 			(effects
@@ -919,7 +919,7 @@
 	(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "849ebd0d-5add-4e23-8919-ba945f380267")
-		(at 189.219 69.965)
+		(at 187.68 76.835)
 		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R5"
@@ -1129,7 +1129,7 @@
 	(footprint "Connector_Audio:Jack_3.5mm_PJ320E_Horizontal"
 		(layer "F.Cu")
 		(uuid "8bbd2dd4-32c8-4562-ace6-c3c5b94298ea")
-		(at 186.295 57.15)
+		(at 205.0975 51.74)
 		(descr "Headphones with microphone connector, 3.5mm, 4 pins (http://www.qingpu-electronics.com/en/products/WQP-PJ320E-177.html)")
 		(tags "3.5mm jack mic microphone phones headphones 4pins audio plug")
 		(property "Reference" "JC1"
@@ -1144,7 +1144,7 @@
 			)
 		)
 		(property "Value" "AudioJack4"
-			(at 4.714 5.08 0)
+			(at 2.7865 4.394 0)
 			(layer "F.Fab")
 			(uuid "b2331f86-b8b6-49f5-8926-e95708b61625")
 			(effects
@@ -1544,7 +1544,7 @@
 	(footprint "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
 		(layer "F.Cu")
 		(uuid "cab837e7-28ac-4ac0-b80c-8ceb6e555ed6")
-		(at 189.23 74.803)
+		(at 196.073 69.977)
 		(descr "SMD Solder Jumper, 1x1.5mm Pads, 0.3mm gap, open")
 		(tags "solder jumper open")
 		(property "Reference" "JP1"
@@ -1713,7 +1713,7 @@
 	(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "e2cf406d-a84a-498b-9311-a3dbd8354a78")
-		(at 189.219 66.675)
+		(at 187.68 73.545)
 		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R2"
@@ -2469,7 +2469,7 @@
 		(descr "Diode SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "diode handsolder")
 		(property "Reference" "D20"
-			(at 0.000001 1.82 345)
+			(at 0.000001 1.82 -15)
 			(layer "B.SilkS")
 			(uuid "c55f1873-a1b5-49e9-a0db-c8ed982b0070")
 			(effects
@@ -2481,7 +2481,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at -0.000001 -1.82 345)
+			(at -0.000001 -1.82 -15)
 			(layer "B.Fab")
 			(uuid "e20cdff2-c289-4800-a1f2-66df89612ee5")
 			(effects
@@ -2685,7 +2685,7 @@
 			(uuid "c95bbb63-3da9-42ea-a585-3660d5e1c3d4")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 345)
+			(at 0 0 -15)
 			(layer "B.Fab")
 			(uuid "755c6d79-e68e-4f16-85e3-63b7c37ab6c0")
 			(effects
@@ -3878,10 +3878,10 @@
 		(attr smd)
 		(fp_poly
 			(pts
-				(xy 3.599998 6.5) (xy 3.800001 6.5) (xy 4.099999 6.450002) (xy 4.399999 6.35) (xy 4.6 6.25) (xy 4.75 6.15)
-				(xy 4.95 6) (xy 5.100001 5.85) (xy 5.25 5.65) (xy 5.4 5.399999) (xy 5.5 5) (xy 5.499999 4.600001)
+				(xy 3.599998 6.5) (xy 3.800001 6.500001) (xy 4.099999 6.450002) (xy 4.399999 6.35) (xy 4.6 6.25)
+				(xy 4.75 6.15) (xy 4.95 6) (xy 5.100001 5.85) (xy 5.25 5.65) (xy 5.4 5.399999) (xy 5.5 5) (xy 5.499999 4.600001)
 				(xy 5.349999 4.499999) (xy 5.2 4.4) (xy 4.75 4.649999) (xy 4.499999 4.75) (xy 4.050001 4.85) (xy 3.55 4.85)
-				(xy 2.95 4.7) (xy 2.45 4.4) (xy 2.150001 4.150001) (xy 1.749999 3.599999) (xy 1.55 3.05) (xy 1.5 2.6)
+				(xy 2.95 4.7) (xy 2.449999 4.4) (xy 2.150001 4.150001) (xy 1.749999 3.599999) (xy 1.55 3.05) (xy 1.5 2.6)
 				(xy 1.25 2.800001) (xy 0.899999 2.9) (xy 0.399999 2.95) (xy -1.649999 2.95) (xy -1.200001 3.2) (xy -0.95 3.4)
 				(xy -0.65 3.749999) (xy -0.5 4) (xy -0.35 4.349999) (xy -0.25 4.750001) (xy -0.25 5.050001) (xy -0.249999 5.4)
 				(xy -0.3 5.65) (xy -0.45 6.049999) (xy -0.75 6.499999)
@@ -7334,7 +7334,7 @@
 	(footprint "kbd:keyswitch_cherrymx_hotswap_1u"
 		(layer "B.Cu")
 		(uuid "4305744c-2272-4f99-a545-1ff5493aa51b")
-		(at 171.8675 93.345 180)
+		(at 171.8675 97.79 180)
 		(property "Reference" "SW23"
 			(at 0 7.5 180)
 			(layer "B.SilkS")
@@ -8152,7 +8152,7 @@
 	(footprint "kbd:keyswitch_cherrymx_hotswap_1u"
 		(layer "B.Cu")
 		(uuid "4961a094-af7c-490e-a106-0bf6d2587983")
-		(at 171.8675 112.395 180)
+		(at 171.8675 116.84 180)
 		(property "Reference" "SW24"
 			(at 0 7.5 180)
 			(layer "B.SilkS")
@@ -8694,7 +8694,7 @@
 	(footprint "kbd:keyswitch_cherrymx_hotswap_1u"
 		(layer "B.Cu")
 		(uuid "6d3e0781-a040-49ab-84cd-f645ad40646e")
-		(at 171.8675 55.245 180)
+		(at 171.8675 59.69 180)
 		(property "Reference" "SW21"
 			(at 0 7.62 180)
 			(layer "B.SilkS")
@@ -10054,7 +10054,7 @@
 	(footprint "Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 		(layer "B.Cu")
 		(uuid "8af82fc5-1535-4394-b8ac-a404b09acbe5")
-		(at 171.8675 117.475 180)
+		(at 171.8675 121.92 180)
 		(descr "Diode SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "diode handsolder")
 		(property "Reference" "D24"
@@ -10862,7 +10862,7 @@
 	(footprint "mcu:rp2040-zero-tht"
 		(layer "B.Cu")
 		(uuid "982d34cf-a16f-4af7-a98b-279cadf6e05c")
-		(at 204.47 54.356 180)
+		(at 192.41 54.16 180)
 		(property "Reference" "U1"
 			(at -16.3989 16.53268 180)
 			(layer "B.SilkS")
@@ -11278,7 +11278,7 @@
 		(uuid "9c80bd39-cf3a-4485-bd70-fa776e1900f6")
 		(at 213.858651 127.255 165)
 		(property "Reference" "SW25"
-			(at 0 7.5 345)
+			(at 0 7.5 -15)
 			(layer "B.SilkS")
 			(uuid "d5d237af-f7bc-46be-b8f4-ee94db85852f")
 			(effects
@@ -11291,7 +11291,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 0.000002 7.8 345)
+			(at 0.000002 7.8 -15)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "fd77cbe7-8ede-4cf8-a0d1-5cfebdfbf752")
@@ -11349,13 +11349,13 @@
 		(attr smd)
 		(fp_poly
 			(pts
-				(xy 3.600001 6.499999) (xy 3.800001 6.5) (xy 4.100001 6.449999) (xy 4.4 6.35) (xy 4.6 6.25) (xy 4.75 6.15)
-				(xy 4.949999 6) (xy 5.1 5.85) (xy 5.25 5.65) (xy 5.399999 5.4) (xy 5.5 4.999999) (xy 5.500001 4.6)
-				(xy 5.35 4.5) (xy 5.2 4.4) (xy 4.75 4.65) (xy 4.5 4.750001) (xy 4.05 4.85) (xy 3.55 4.85) (xy 2.95 4.7)
-				(xy 2.449999 4.4) (xy 2.15 4.15) (xy 1.750001 3.600001) (xy 1.55 3.05) (xy 1.5 2.6) (xy 1.25 2.800001)
-				(xy 0.899999 2.9) (xy 0.399999 2.950002) (xy -1.65 2.95) (xy -1.2 3.199999) (xy -0.950001 3.4) (xy -0.65 3.749999)
-				(xy -0.5 4) (xy -0.35 4.35) (xy -0.25 4.75) (xy -0.249999 5.05) (xy -0.250001 5.4) (xy -0.299999 5.650001)
-				(xy -0.45 6.05) (xy -0.75 6.499999)
+				(xy 3.600001 6.499999) (xy 3.800001 6.500001) (xy 4.100001 6.449999) (xy 4.4 6.35) (xy 4.6 6.25)
+				(xy 4.75 6.15) (xy 4.949999 6) (xy 5.1 5.85) (xy 5.25 5.65) (xy 5.399999 5.4) (xy 5.5 4.999999)
+				(xy 5.500001 4.6) (xy 5.35 4.5) (xy 5.2 4.4) (xy 4.75 4.65) (xy 4.499999 4.750001) (xy 4.05 4.85)
+				(xy 3.55 4.85) (xy 2.95 4.7) (xy 2.449999 4.4) (xy 2.149999 4.15) (xy 1.750001 3.600002) (xy 1.55 3.05)
+				(xy 1.5 2.6) (xy 1.25 2.800001) (xy 0.899999 2.9) (xy 0.399999 2.950001) (xy -1.65 2.95) (xy -1.2 3.199999)
+				(xy -0.950001 3.399999) (xy -0.65 3.749999) (xy -0.5 4) (xy -0.35 4.35) (xy -0.25 4.75) (xy -0.249999 5.05)
+				(xy -0.250001 5.4) (xy -0.299999 5.650001) (xy -0.45 6.05) (xy -0.75 6.499999)
 			)
 			(stroke
 				(width 0.4)
@@ -12617,7 +12617,7 @@
 	(footprint "Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 		(layer "B.Cu")
 		(uuid "acaa7b94-1285-48e2-8c59-6050f30ae495")
-		(at 171.8675 98.425 180)
+		(at 171.8675 102.87 180)
 		(descr "Diode SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "diode handsolder")
 		(property "Reference" "D23"
@@ -13987,7 +13987,7 @@
 	(footprint "Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 		(layer "B.Cu")
 		(uuid "c4bfbc80-3e3d-47cb-a2d0-84106855d9a5")
-		(at 171.8675 79.375 180)
+		(at 171.8675 83.82 180)
 		(descr "Diode SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "diode handsolder")
 		(property "Reference" "D22"
@@ -14253,7 +14253,7 @@
 	(footprint "Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 		(layer "B.Cu")
 		(uuid "c51bf235-1085-470c-883a-f567c711581d")
-		(at 171.8675 60.325 180)
+		(at 171.8675 64.77 180)
 		(descr "Diode SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "diode handsolder")
 		(property "Reference" "D21"
@@ -14785,7 +14785,7 @@
 	(footprint "kbd:keyswitch_cherrymx_hotswap_1u"
 		(layer "B.Cu")
 		(uuid "cd09e369-3cc4-4c20-bff2-e2affb522dc1")
-		(at 171.8675 74.295 180)
+		(at 171.8675 78.74 180)
 		(property "Reference" "SW22"
 			(at 0 7.5 180)
 			(layer "B.SilkS")
@@ -15871,7 +15871,7 @@
 		(uuid "dbdca1ab-06d7-4437-88c2-021fe581b11d")
 		(at 208.92 145.655 165)
 		(property "Reference" "SW30"
-			(at 0 7.5 345)
+			(at 0 7.5 -15)
 			(layer "B.SilkS")
 			(uuid "eb4d9b17-e13d-4cf0-ac74-fcd3d26ff717")
 			(effects
@@ -15884,7 +15884,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 0.000002 7.8 345)
+			(at 0.000002 7.8 -15)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "56cf9de3-0878-4957-95ec-830ac995e725")
@@ -15942,13 +15942,13 @@
 		(attr smd)
 		(fp_poly
 			(pts
-				(xy 3.600001 6.499999) (xy 3.800001 6.5) (xy 4.100001 6.449999) (xy 4.4 6.35) (xy 4.6 6.25) (xy 4.75 6.15)
-				(xy 4.949999 6) (xy 5.1 5.85) (xy 5.25 5.65) (xy 5.399999 5.4) (xy 5.5 4.999999) (xy 5.500001 4.6)
-				(xy 5.35 4.5) (xy 5.2 4.4) (xy 4.75 4.65) (xy 4.5 4.750001) (xy 4.05 4.85) (xy 3.55 4.85) (xy 2.95 4.7)
-				(xy 2.449999 4.4) (xy 2.15 4.15) (xy 1.750001 3.600001) (xy 1.55 3.05) (xy 1.5 2.6) (xy 1.25 2.800001)
-				(xy 0.899999 2.9) (xy 0.399999 2.950002) (xy -1.65 2.95) (xy -1.2 3.199999) (xy -0.950001 3.4) (xy -0.65 3.749999)
-				(xy -0.5 4) (xy -0.35 4.35) (xy -0.25 4.75) (xy -0.249999 5.05) (xy -0.250001 5.4) (xy -0.299999 5.650001)
-				(xy -0.45 6.05) (xy -0.75 6.499999)
+				(xy 3.600001 6.499999) (xy 3.800001 6.500001) (xy 4.100001 6.449999) (xy 4.4 6.35) (xy 4.6 6.25)
+				(xy 4.75 6.15) (xy 4.949999 6) (xy 5.1 5.85) (xy 5.25 5.65) (xy 5.399999 5.4) (xy 5.5 4.999999)
+				(xy 5.500001 4.6) (xy 5.35 4.5) (xy 5.2 4.4) (xy 4.75 4.65) (xy 4.499999 4.750001) (xy 4.05 4.85)
+				(xy 3.55 4.85) (xy 2.95 4.7) (xy 2.449999 4.4) (xy 2.149999 4.15) (xy 1.750001 3.600002) (xy 1.55 3.05)
+				(xy 1.5 2.6) (xy 1.25 2.800001) (xy 0.899999 2.9) (xy 0.399999 2.950001) (xy -1.65 2.95) (xy -1.2 3.199999)
+				(xy -0.950001 3.399999) (xy -0.65 3.749999) (xy -0.5 4) (xy -0.35 4.35) (xy -0.25 4.75) (xy -0.249999 5.05)
+				(xy -0.250001 5.4) (xy -0.299999 5.650001) (xy -0.45 6.05) (xy -0.75 6.499999)
 			)
 			(stroke
 				(width 0.4)
@@ -16150,7 +16150,7 @@
 		(descr "Diode SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "diode handsolder")
 		(property "Reference" "D30"
-			(at 0.000001 1.82 345)
+			(at 0.000001 1.82 -15)
 			(layer "B.SilkS")
 			(uuid "36cbb3b8-edda-4b6b-a4eb-7fc66e813818")
 			(effects
@@ -16162,7 +16162,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at -0.000001 -1.82 345)
+			(at -0.000001 -1.82 -15)
 			(layer "B.Fab")
 			(uuid "9c7efffe-45dd-4666-832a-c09180178356")
 			(effects
@@ -16366,7 +16366,7 @@
 			(uuid "58aa1fbd-9c92-41d6-aa61-4ba0a09f2860")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 345)
+			(at 0 0 -15)
 			(layer "B.Fab")
 			(uuid "4aa5b885-8722-4137-8b6c-c3a892aacc85")
 			(effects
@@ -17796,7 +17796,7 @@
 		(descr "Diode SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "diode handsolder")
 		(property "Reference" "D25"
-			(at 0.000001 1.82 345)
+			(at 0.000001 1.82 -15)
 			(layer "B.SilkS")
 			(uuid "f1ac9742-2479-42fd-8186-e1091369f730")
 			(effects
@@ -17808,7 +17808,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at -0.000001 -1.82 345)
+			(at -0.000001 -1.82 -15)
 			(layer "B.Fab")
 			(uuid "5fa71bed-28c4-472c-bd2d-ec61dfd44f64")
 			(effects
@@ -18012,7 +18012,7 @@
 			(uuid "7ed8fa83-bdeb-4086-908b-f971ddfe52d3")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 345)
+			(at 0 0 -15)
 			(layer "B.Fab")
 			(uuid "27a5c849-bde1-4b06-9c9f-6bd2a8d61e4c")
 			(effects
@@ -18598,253 +18598,193 @@
 		)
 	)
 	(gr_line
-		(start 139.7 126.365)
-		(end 179.07 126.365)
+		(start 62.865 45.659)
+		(end 102.235 45.659)
 		(stroke
-			(width 0.05)
+			(width 0.12)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "0f619d3f-9282-4b92-b173-19bdccb7214c")
+		(uuid "00dfc4d9-4046-409a-851f-89582bc4ee42")
 	)
 	(gr_line
-		(start 107.95 147.32)
-		(end 107.95 141.605)
+		(start 102.235 45.659)
+		(end 102.235 40.579)
 		(stroke
-			(width 0.05)
+			(width 0.12)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "116d139e-d12e-449f-b0b5-4f48fb4fc6b3")
+		(uuid "0444b838-56d4-474b-a0b6-5381cc94962a")
 	)
 	(gr_line
-		(start 62.865 45.72)
-		(end 62.865 147.32)
+		(start 186.41 42.41)
+		(end 145.415 42.418)
 		(stroke
-			(width 0.05)
+			(width 0.12)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "1583b068-5950-4742-8a49-afaeee15a865")
+		(uuid "0b3e1c32-75eb-4a75-8ac0-23e3b042f4de")
 	)
 	(gr_line
-		(start 179.07 126.365)
-		(end 180.975 126.365)
+		(start 180.34 129.54)
+		(end 174.625 150.434)
 		(stroke
-			(width 0.05)
+			(width 0.12)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "17f2d7dd-54e6-41af-ba8e-a1df6aec37da")
+		(uuid "17c6550c-40d5-480c-8a30-582f06895448")
 	)
 	(gr_line
-		(start 198.47 42.606)
-		(end 145.415 42.545)
+		(start 121.285 40.579)
+		(end 121.285 37.404)
 		(stroke
-			(width 0.05)
+			(width 0.12)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "26efe0b7-535e-47af-a848-dc4d5b1977fd")
+		(uuid "1db6a006-4a92-4e55-ae0a-36a584aa42d1")
 	)
 	(gr_line
-		(start 145.415 42.545)
-		(end 145.415 37.465)
+		(start 121.285 40.579)
+		(end 102.235 40.579)
 		(stroke
-			(width 0.05)
+			(width 0.12)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "2c202712-1b71-4df1-b217-fcf46d397ea6")
+		(uuid "2064d00f-ce93-49d8-b471-a8f2b012e26a")
 	)
 	(gr_line
-		(start 219.075 161.925)
-		(end 231.14 116.84)
+		(start 107.95 141.544)
+		(end 127 141.544)
 		(stroke
-			(width 0.05)
+			(width 0.12)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "4097913a-8a30-4ec9-9e70-f051bdfb2f7c")
+		(uuid "30af077f-f2a4-4e4b-8d6b-a7062fe716b0")
 	)
 	(gr_line
-		(start 210.566 42.545)
-		(end 210.439 42.545)
+		(start 127 141.544)
+		(end 127 129.54)
 		(stroke
-			(width 0.05)
+			(width 0.12)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "48b8657e-9843-4fb7-9715-b5702cf0c7a3")
+		(uuid "31e2d98f-0cd5-4055-89ea-c854e5ddc704")
 	)
 	(gr_line
-		(start 174.625 150.495)
-		(end 219.075 161.925)
+		(start 107.95 147.259)
+		(end 107.95 141.544)
 		(stroke
-			(width 0.05)
+			(width 0.12)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "4b72961f-67cb-4020-b719-e31948b1106e")
+		(uuid "3c3dc1b3-c75c-44ba-92b7-38ea80e17511")
 	)
 	(gr_line
-		(start 104.775 40.64)
-		(end 102.235 40.64)
+		(start 174.625 150.434)
+		(end 219.075 161.864)
 		(stroke
-			(width 0.05)
+			(width 0.12)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "5089508a-b92d-4df7-ba8b-20aa65728c2e")
+		(uuid "443e5483-0fb1-45b8-8679-6624632d83fe")
 	)
 	(gr_line
-		(start 102.235 40.64)
-		(end 102.235 45.72)
+		(start 121.285 37.404)
+		(end 145.415 37.404)
 		(stroke
-			(width 0.05)
+			(width 0.12)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "542d9333-a825-4475-9e27-cd2fca7eb99d")
+		(uuid "44c685ac-0a5a-449c-941e-08066cb7cc84")
 	)
 	(gr_line
-		(start 231.14 116.84)
-		(end 216.535 113.03)
+		(start 62.865 45.659)
+		(end 62.865 147.259)
 		(stroke
-			(width 0.05)
+			(width 0.12)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "5f2ca646-4634-4465-aaf7-47eedc51ba9e")
+		(uuid "76b4f276-764d-4ad4-af62-5ff9d49a6f61")
 	)
 	(gr_line
-		(start 121.285 37.465)
-		(end 121.285 40.64)
+		(start 213.36 111.76)
+		(end 213.36 42.418)
 		(stroke
-			(width 0.05)
+			(width 0.12)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "726cddad-4540-4979-ad27-e4b8eedf2def")
+		(uuid "7f74b071-c9ca-4eb1-b32b-16f11473e9f7")
 	)
 	(gr_line
-		(start 216.535 42.545)
-		(end 210.566 42.545)
+		(start 231.14 116.779)
+		(end 213.36 111.76)
 		(stroke
-			(width 0.05)
+			(width 0.12)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "75474bc7-d491-4f24-9b2a-3753ca353cd6")
+		(uuid "a1001066-ef4c-405a-bae2-8a046ab15082")
 	)
 	(gr_line
-		(start 62.865 147.32)
-		(end 107.95 147.32)
+		(start 145.415 37.404)
+		(end 145.415 42.418)
 		(stroke
-			(width 0.05)
+			(width 0.12)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "75ea8c32-e951-479d-8287-ed0dd9ef1f7d")
+		(uuid "afc13a81-daa7-4441-be1a-7da11cadba08")
 	)
 	(gr_line
-		(start 139.7 120.65)
-		(end 139.7 126.365)
+		(start 62.865 147.259)
+		(end 107.95 147.259)
 		(stroke
-			(width 0.05)
+			(width 0.12)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "7ac8f2c2-7a11-4e48-97bd-6758d65b6e2b")
+		(uuid "bf8049d4-b372-4545-a6ae-0153196339e5")
 	)
 	(gr_line
-		(start 145.415 37.465)
-		(end 121.285 37.465)
+		(start 219.075 161.864)
+		(end 231.14 116.779)
 		(stroke
-			(width 0.05)
+			(width 0.12)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "8525392f-a734-48ac-95fb-716889732c39")
+		(uuid "d4338542-0230-4bcf-a250-a8d7a50e6805")
 	)
 	(gr_line
-		(start 180.975 126.365)
-		(end 174.625 150.495)
+		(start 127 129.54)
+		(end 180.34 129.54)
 		(stroke
-			(width 0.05)
+			(width 0.12)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "ac490111-cf27-44db-b206-f21dd7deb826")
+		(uuid "f769031d-6752-4cca-bf25-870c8acb12a8")
 	)
 	(gr_line
-		(start 121.285 40.64)
-		(end 104.775 40.64)
+		(start 198.404897 42.418)
+		(end 213.36 42.418)
 		(stroke
-			(width 0.05)
+			(width 0.12)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "ae16ee52-5ccb-4be1-8dd3-d61c5b9ce603")
-	)
-	(gr_line
-		(start 107.95 141.605)
-		(end 126.365 141.605)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "b30b0e10-2a4f-436b-9861-1416cbe51380")
-	)
-	(gr_line
-		(start 216.535 113.03)
-		(end 216.535 42.545)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "b5689b07-237d-48c2-a7ac-4049ea6540cc")
-	)
-	(gr_line
-		(start 102.235 45.72)
-		(end 62.865 45.72)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "ba9756cf-e280-4f9a-bad7-5f70418c05d3")
-	)
-	(gr_line
-		(start 126.365 141.605)
-		(end 127 141.605)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "bdc54012-d2d9-4d88-8290-5d93962161dc")
-	)
-	(gr_line
-		(start 127 120.65)
-		(end 139.7 120.65)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "f5d3b88f-bb99-434d-bd6b-764691977a26")
-	)
-	(gr_line
-		(start 127 141.605)
-		(end 127 120.65)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "f801f4d8-dcde-4008-aea8-58976d879235")
+		(uuid "fbec65e0-bfc0-4f28-bc2d-7159407ea2a0")
 	)
 )
