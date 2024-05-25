@@ -7291,7 +7291,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2d3a311f-7a61-46e2-8659-c41d30fed2bd")
-		(property "Reference" "R3"
+		(property "Reference" "R4"
 			(at 171.45 50.7999 0)
 			(effects
 				(font
@@ -7345,7 +7345,7 @@
 		(instances
 			(project "keyboard"
 				(path "/34419420-7e5e-42c4-9f03-dbda76a14dce"
-					(reference "R3")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -8941,7 +8941,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4e6a51ae-6af4-4e42-a580-4550aec931ed")
-		(property "Reference" "R4"
+		(property "Reference" "R5"
 			(at 177.8 50.7999 0)
 			(effects
 				(font
@@ -8995,7 +8995,7 @@
 		(instances
 			(project "keyboard"
 				(path "/34419420-7e5e-42c4-9f03-dbda76a14dce"
-					(reference "R4")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -9615,7 +9615,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "60ea5f3c-99d0-4a61-a251-3edcbf8cfde8")
-		(property "Reference" "R5"
+		(property "Reference" "R3"
 			(at 46.99 68.58 90)
 			(effects
 				(font
@@ -9667,7 +9667,7 @@
 		(instances
 			(project "keyboard"
 				(path "/34419420-7e5e-42c4-9f03-dbda76a14dce"
-					(reference "R5")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -10848,7 +10848,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:keyswitch_cherrymx_hotswap_2u_vertical"
+		(property "Footprint" "kbd:keyswitch_cherrymx_hotswap_1u"
 			(at 186.69 142.24 0)
 			(effects
 				(font
@@ -12388,7 +12388,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "kbd:keyswitch_cherrymx_hotswap_2u_vertical"
 			(at 203.2 142.24 0)
 			(effects
 				(font
