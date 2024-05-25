@@ -167,22 +167,22 @@
 				)
 			)
 		)
-		(symbol "Connector:Conn_01x04_Socket"
+		(symbol "Connector:Conn_01x06_Socket"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 0 5.08 0)
+				(at 0 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Conn_01x04_Socket"
-				(at 0 -7.62 0)
+			(property "Value" "Conn_01x06_Socket"
+				(at 0 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -207,7 +207,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x04, script generated"
+			(property "Description" "Generic connector, single row, 01x06, script generated"
 				(at 0 0 0)
 				(effects
 					(font
@@ -242,7 +242,19 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x04_Socket_1_1"
+			(symbol "Conn_01x06_Socket_1_1"
+				(arc
+					(start 0 -7.112)
+					(mid -0.5058 -7.62)
+					(end 0 -8.128)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(arc
 					(start 0 -4.572)
 					(mid -0.5058 -5.08)
@@ -259,6 +271,18 @@
 					(start 0 -2.032)
 					(mid -0.5058 -2.54)
 					(end 0 -3.048)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -7.62) (xy -0.508 -7.62)
+					)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -315,6 +339,18 @@
 						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy -1.27 5.08) (xy -0.508 5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(arc
 					(start 0 0.508)
 					(mid -0.5058 0)
@@ -339,8 +375,20 @@
 						(type none)
 					)
 				)
+				(arc
+					(start 0 5.588)
+					(mid -0.5058 5.08)
+					(end 0 4.572)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin passive line
-					(at -5.08 2.54 0)
+					(at -5.08 5.08 0)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -358,7 +406,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -5.08 2.54 0)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -376,7 +424,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
+					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_3"
 						(effects
@@ -394,7 +442,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -5.08 0)
+					(at -5.08 -2.54 0)
 					(length 3.81)
 					(name "Pin_4"
 						(effects
@@ -404,6 +452,42 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1765,7 +1849,7 @@
 		(uuid "32fa0a7e-f7c3-4252-a9f8-27d3c566aea5")
 	)
 	(junction
-		(at 120.65 43.18)
+		(at 115.57 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "350bd192-c775-4464-8238-6bf0a8c82dc0")
@@ -1801,7 +1885,7 @@
 		(uuid "52565085-1b35-4a30-a583-9383304115c3")
 	)
 	(junction
-		(at 133.35 73.66)
+		(at 128.27 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5346a2c1-6f95-4927-865e-222ee441149b")
@@ -1849,6 +1933,12 @@
 		(uuid "96525fb9-c6d0-4329-b572-ed29e8dd3dcc")
 	)
 	(junction
+		(at 156.21 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "99548f40-3a6c-4949-81fc-12c21acccd2a")
+	)
+	(junction
 		(at 88.9 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1867,7 +1957,7 @@
 		(uuid "a307f043-469a-4c88-80e3-fccc485de98e")
 	)
 	(junction
-		(at 133.35 45.72)
+		(at 128.27 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a3b4c47c-bc2d-4b4f-b8e4-6a8a480b15e2")
@@ -1879,7 +1969,7 @@
 		(uuid "a3f33c9f-8ae0-4053-801f-ff8093982d82")
 	)
 	(junction
-		(at 132.08 43.18)
+		(at 127 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a54eac5c-4c09-45d0-8a89-46b455d9ef4b")
@@ -1901,6 +1991,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "af0767a2-a2e7-402d-b26a-5a9a4094df99")
+	)
+	(junction
+		(at 157.48 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b1f8ad4b-b3c9-40ce-a41d-0b380ee89da1")
 	)
 	(junction
 		(at 121.92 119.38)
@@ -1939,7 +2035,7 @@
 		(uuid "d480eed6-b212-4558-8964-0abc3dc9fa68")
 	)
 	(junction
-		(at 114.3 58.42)
+		(at 109.22 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d654d56f-ef55-4285-88f2-22828fe10621")
@@ -1969,7 +2065,7 @@
 		(uuid "e835aca2-f0ee-4203-bfbf-dd228930e30f")
 	)
 	(junction
-		(at 114.3 43.18)
+		(at 109.22 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eb8ce415-183f-44ed-ac06-ec7727178cbe")
@@ -1999,7 +2095,7 @@
 		(uuid "fb3522ae-0587-419d-bcc2-406eada18f65")
 	)
 	(junction
-		(at 120.65 55.88)
+		(at 115.57 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fb43c84e-1115-47e8-a016-b7800f83d0ee")
@@ -2017,7 +2113,7 @@
 		(uuid "fe0d68dc-4067-4a98-8e41-301d4dd890ae")
 	)
 	(no_connect
-		(at 160.02 48.26)
+		(at 160.02 44.45)
 		(uuid "c6e151f6-d6f5-42f5-9b28-a6e78e1be3b0")
 	)
 	(wire
@@ -2032,7 +2128,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 43.18) (xy 132.08 60.96)
+			(xy 127 39.37) (xy 127 57.15)
 		)
 		(stroke
 			(width 0)
@@ -2122,6 +2218,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 44.45) (xy 185.42 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13301fce-b444-4055-a8b0-c453bb721f28")
+	)
+	(wire
+		(pts
 			(xy 181.61 127) (xy 185.42 127)
 		)
 		(stroke
@@ -2129,6 +2235,26 @@
 			(type default)
 		)
 		(uuid "146df5a6-43c0-491a-aef8-f29f2b4d3282")
+	)
+	(wire
+		(pts
+			(xy 196.85 39.37) (xy 185.42 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c39cfbc-5e42-499d-bea0-0bf12ed83c84")
+	)
+	(wire
+		(pts
+			(xy 157.48 39.37) (xy 157.48 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d2958a1-8d98-403e-a48b-4b084ab8db93")
 	)
 	(wire
 		(pts
@@ -2142,7 +2268,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 54.61) (xy 120.65 55.88)
+			(xy 115.57 50.8) (xy 115.57 52.07)
 		)
 		(stroke
 			(width 0)
@@ -2152,7 +2278,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 73.66) (xy 130.81 73.66)
+			(xy 128.27 69.85) (xy 125.73 69.85)
 		)
 		(stroke
 			(width 0)
@@ -2162,7 +2288,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 55.88) (xy 160.02 55.88)
+			(xy 115.57 52.07) (xy 160.02 52.07)
 		)
 		(stroke
 			(width 0)
@@ -2202,7 +2328,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 60.96) (xy 134.62 60.96)
+			(xy 160.02 57.15) (xy 129.54 57.15)
 		)
 		(stroke
 			(width 0)
@@ -2222,7 +2348,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 63.5) (xy 160.02 63.5)
+			(xy 127 59.69) (xy 160.02 59.69)
 		)
 		(stroke
 			(width 0)
@@ -2242,13 +2368,23 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 43.18) (xy 114.3 43.18)
+			(xy 115.57 39.37) (xy 109.22 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3d05d5b4-cd60-469a-ac78-8f4084f1eed2")
+	)
+	(wire
+		(pts
+			(xy 156.21 41.91) (xy 156.21 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d06144e-7769-4318-a17e-969b6b72bbf5")
 	)
 	(wire
 		(pts
@@ -2272,7 +2408,17 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 73.66) (xy 113.03 73.66)
+			(xy 157.48 39.37) (xy 160.02 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41eaf856-59e8-471b-bb83-2c096a3f5f58")
+	)
+	(wire
+		(pts
+			(xy 90.17 69.85) (xy 107.95 69.85)
 		)
 		(stroke
 			(width 0)
@@ -2302,6 +2448,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 49.53) (xy 160.02 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46471c85-3185-4f84-a0bd-9536a70e22c1")
+	)
+	(wire
+		(pts
 			(xy 165.1 149.86) (xy 181.61 149.86)
 		)
 		(stroke
@@ -2319,6 +2475,16 @@
 			(type default)
 		)
 		(uuid "4820e6cf-4d4e-4eef-978f-50d3f9d7c4b1")
+	)
+	(wire
+		(pts
+			(xy 196.85 74.93) (xy 196.85 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b4f4e76-1e96-4912-b642-93719ce4f54f")
 	)
 	(wire
 		(pts
@@ -2342,6 +2508,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 76.2) (xy 195.58 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53d0b2dd-7d11-4b95-89a6-8d5184d0b927")
+	)
+	(wire
+		(pts
 			(xy 138.43 119.38) (xy 138.43 130.81)
 		)
 		(stroke
@@ -2362,13 +2538,23 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 43.18) (xy 120.65 46.99)
+			(xy 115.57 39.37) (xy 115.57 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "564a2335-65f1-4ecb-840c-c7a9217d8a87")
+	)
+	(wire
+		(pts
+			(xy 196.85 46.99) (xy 185.42 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56e01436-d54e-4f48-8dc9-897ee36c8557")
 	)
 	(wire
 		(pts
@@ -2422,6 +2608,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 41.91) (xy 160.02 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6384d5ef-b82c-4b8a-bfce-3ba23716e0be")
+	)
+	(wire
+		(pts
 			(xy 88.9 107.95) (xy 88.9 119.38)
 		)
 		(stroke
@@ -2432,7 +2628,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 43.18) (xy 114.3 46.99)
+			(xy 109.22 39.37) (xy 109.22 43.18)
 		)
 		(stroke
 			(width 0)
@@ -2472,7 +2668,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 58.42) (xy 160.02 58.42)
+			(xy 109.22 54.61) (xy 160.02 54.61)
 		)
 		(stroke
 			(width 0)
@@ -2489,6 +2685,16 @@
 			(type default)
 		)
 		(uuid "71f91f13-1075-4ac0-9d8c-367ab3cfc754")
+	)
+	(wire
+		(pts
+			(xy 154.94 46.99) (xy 160.02 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73a236d6-a471-485a-bac9-00352478346c")
 	)
 	(wire
 		(pts
@@ -2512,7 +2718,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 73.66) (xy 133.35 73.66)
+			(xy 129.54 69.85) (xy 128.27 69.85)
 		)
 		(stroke
 			(width 0)
@@ -2542,7 +2748,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 54.61) (xy 114.3 58.42)
+			(xy 109.22 50.8) (xy 109.22 54.61)
 		)
 		(stroke
 			(width 0)
@@ -2592,7 +2798,17 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 60.96) (xy 109.22 60.96)
+			(xy 157.48 74.93) (xy 196.85 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ea07440-8a9e-4baf-8771-b57048d000ba")
+	)
+	(wire
+		(pts
+			(xy 127 57.15) (xy 104.14 57.15)
 		)
 		(stroke
 			(width 0)
@@ -2602,7 +2818,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 45.72) (xy 133.35 73.66)
+			(xy 128.27 41.91) (xy 128.27 69.85)
 		)
 		(stroke
 			(width 0)
@@ -2612,7 +2828,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 43.18) (xy 120.65 43.18)
+			(xy 127 39.37) (xy 115.57 39.37)
 		)
 		(stroke
 			(width 0)
@@ -2622,7 +2838,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 45.72) (xy 109.22 53.34)
+			(xy 104.14 41.91) (xy 104.14 49.53)
 		)
 		(stroke
 			(width 0)
@@ -2652,7 +2868,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 43.18) (xy 95.25 43.18)
+			(xy 109.22 39.37) (xy 90.17 39.37)
 		)
 		(stroke
 			(width 0)
@@ -2672,6 +2888,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 49.53) (xy 196.85 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b16e25dd-911c-4dc3-b1b2-5e6cf3ea2f0a")
+	)
+	(wire
+		(pts
 			(xy 148.59 149.86) (xy 165.1 149.86)
 		)
 		(stroke
@@ -2682,7 +2908,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 43.18) (xy 160.02 43.18)
+			(xy 127 39.37) (xy 157.48 39.37)
 		)
 		(stroke
 			(width 0)
@@ -2702,7 +2928,17 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 43.18) (xy 95.25 73.66)
+			(xy 156.21 76.2) (xy 195.58 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9db514b-df06-46f1-bf07-99e74295aa8d")
+	)
+	(wire
+		(pts
+			(xy 90.17 39.37) (xy 90.17 69.85)
 		)
 		(stroke
 			(width 0)
@@ -2742,7 +2978,17 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 60.96) (xy 134.62 73.66)
+			(xy 196.85 41.91) (xy 185.42 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9246005-1eb2-49a0-9322-9dcc2920dc78")
+	)
+	(wire
+		(pts
+			(xy 129.54 57.15) (xy 129.54 69.85)
 		)
 		(stroke
 			(width 0)
@@ -2792,7 +3038,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 58.42) (xy 114.3 58.42)
+			(xy 104.14 54.61) (xy 109.22 54.61)
 		)
 		(stroke
 			(width 0)
@@ -2802,7 +3048,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 55.88) (xy 120.65 55.88)
+			(xy 104.14 52.07) (xy 115.57 52.07)
 		)
 		(stroke
 			(width 0)
@@ -2832,7 +3078,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 45.72) (xy 160.02 45.72)
+			(xy 128.27 41.91) (xy 156.21 41.91)
 		)
 		(stroke
 			(width 0)
@@ -2842,7 +3088,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 45.72) (xy 133.35 45.72)
+			(xy 104.14 41.91) (xy 128.27 41.91)
 		)
 		(stroke
 			(width 0)
@@ -2894,7 +3140,7 @@
 	)
 	(global_label "l_row2"
 		(shape input)
-		(at 170.18 68.58 270)
+		(at 170.18 64.77 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2904,7 +3150,7 @@
 		)
 		(uuid "09c9af84-c59d-4d9d-94fd-32b2bd7f1220")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 170.18 77.6732 90)
+			(at 170.18 73.8632 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2916,7 +3162,7 @@
 	)
 	(global_label "l_row0"
 		(shape input)
-		(at 175.26 68.58 270)
+		(at 175.26 64.77 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2926,7 +3172,7 @@
 		)
 		(uuid "15f154bd-7841-4cf8-98b8-9a7efc270db4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 175.26 77.6732 90)
+			(at 175.26 73.8632 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2960,7 +3206,7 @@
 	)
 	(global_label "l_row3"
 		(shape input)
-		(at 167.64 68.58 270)
+		(at 167.64 64.77 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2970,7 +3216,7 @@
 		)
 		(uuid "1b727093-59cd-4aa6-afc4-1541e525d9b0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 167.64 77.6732 90)
+			(at 167.64 73.8632 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3070,7 +3316,7 @@
 	)
 	(global_label "l_col0"
 		(shape input)
-		(at 185.42 53.34 0)
+		(at 185.42 49.53 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3080,7 +3326,7 @@
 		)
 		(uuid "68811481-44b6-4bc4-913d-bfcaa12c5180")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 194.1503 53.34 0)
+			(at 194.1503 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3114,7 +3360,7 @@
 	)
 	(global_label "l_col5"
 		(shape input)
-		(at 177.8 68.58 270)
+		(at 177.8 64.77 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3124,7 +3370,7 @@
 		)
 		(uuid "7f18ff76-bbd5-4537-a83b-5299bf35bcd2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 177.8 77.3103 90)
+			(at 177.8 73.5003 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3136,7 +3382,7 @@
 	)
 	(global_label "l_col2"
 		(shape input)
-		(at 185.42 58.42 0)
+		(at 185.42 54.61 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3146,7 +3392,7 @@
 		)
 		(uuid "8d85eabe-faea-4e02-a1b1-3eaec0617559")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 194.1503 58.42 0)
+			(at 194.1503 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3158,7 +3404,7 @@
 	)
 	(global_label "l_col1"
 		(shape input)
-		(at 185.42 55.88 0)
+		(at 185.42 52.07 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3168,7 +3414,7 @@
 		)
 		(uuid "925b6db4-9df5-4784-bfd0-0c93cd879496")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 194.1503 55.88 0)
+			(at 194.1503 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3180,7 +3426,7 @@
 	)
 	(global_label "l_col3"
 		(shape input)
-		(at 185.42 60.96 0)
+		(at 185.42 57.15 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3190,7 +3436,7 @@
 		)
 		(uuid "a34277f7-42d0-4b58-8f38-83f73b3a4124")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 194.1503 60.96 0)
+			(at 194.1503 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3224,7 +3470,7 @@
 	)
 	(global_label "l_col4"
 		(shape input)
-		(at 185.42 63.5 0)
+		(at 185.42 59.69 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3234,7 +3480,7 @@
 		)
 		(uuid "c1c4cbd7-4bb7-4562-9f62-139a246a2541")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 194.1503 63.5 0)
+			(at 194.1503 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3290,7 +3536,7 @@
 	)
 	(global_label "l_row1"
 		(shape input)
-		(at 172.72 68.58 270)
+		(at 172.72 64.77 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3300,7 +3546,7 @@
 		)
 		(uuid "d1e2c759-2939-45b8-9ebb-7a7eaf93ed7f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 172.72 77.6732 90)
+			(at 172.72 73.8632 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3334,7 +3580,7 @@
 	)
 	(global_label "l_row4"
 		(shape input)
-		(at 132.08 63.5 180)
+		(at 127 59.69 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3344,7 +3590,7 @@
 		)
 		(uuid "f56e0f92-a45b-4971-9d84-41cc7473ff61")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 122.9868 63.5 0)
+			(at 117.9068 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3356,7 +3602,7 @@
 	)
 	(symbol
 		(lib_id "mcu:rp2040-zero")
-		(at 172.72 52.07 0)
+		(at 172.72 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3365,7 +3611,7 @@
 		(fields_autoplaced yes)
 		(uuid "028e031c-5e83-4fa3-bca9-155882aeb3d7")
 		(property "Reference" "U1"
-			(at 172.72 35.56 0)
+			(at 172.72 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3373,7 +3619,7 @@
 			)
 		)
 		(property "Value" "rp2040-zero"
-			(at 172.72 38.1 0)
+			(at 172.72 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3381,7 +3627,7 @@
 			)
 		)
 		(property "Footprint" "mcu:rp2040-zero-tht"
-			(at 163.83 46.99 0)
+			(at 163.83 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3390,7 +3636,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 163.83 46.99 0)
+			(at 163.83 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3399,7 +3645,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 172.72 52.07 0)
+			(at 172.72 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3495,7 +3741,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "040a6bfc-16d5-4449-917b-9c178f0bb520")
-		(property "Reference" "D18"
+		(property "Reference" "D19"
 			(at 151.13 133.3499 90)
 			(effects
 				(font
@@ -3567,7 +3813,7 @@
 		(instances
 			(project "keyboard"
 				(path "/34419420-7e5e-42c4-9f03-dbda76a14dce"
-					(reference "D18")
+					(reference "D19")
 					(unit 1)
 				)
 			)
@@ -3583,7 +3829,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "082fa162-828d-4cd2-9fb5-4db2d04d8322")
-		(property "Reference" "D25"
+		(property "Reference" "D27"
 			(at 184.15 110.4899 90)
 			(effects
 				(font
@@ -3655,7 +3901,7 @@
 		(instances
 			(project "keyboard"
 				(path "/34419420-7e5e-42c4-9f03-dbda76a14dce"
-					(reference "D25")
+					(reference "D27")
 					(unit 1)
 				)
 			)
@@ -3671,7 +3917,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0be8aaa5-4440-4b95-9d34-6ce0f8e98398")
-		(property "Reference" "D14"
+		(property "Reference" "D15"
 			(at 134.62 144.7799 90)
 			(effects
 				(font
@@ -3743,7 +3989,7 @@
 		(instances
 			(project "keyboard"
 				(path "/34419420-7e5e-42c4-9f03-dbda76a14dce"
-					(reference "D14")
+					(reference "D15")
 					(unit 1)
 				)
 			)
@@ -3759,7 +4005,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "10360c1b-d3a4-45e9-a088-4d76d9e3af9e")
-		(property "Reference" "D5"
+		(property "Reference" "D6"
 			(at 118.11 99.0599 90)
 			(effects
 				(font
@@ -3831,7 +4077,7 @@
 		(instances
 			(project "keyboard"
 				(path "/34419420-7e5e-42c4-9f03-dbda76a14dce"
-					(reference "D5")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -3915,7 +4161,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1bc251d7-0547-4cd5-ad8e-30d554fc847b")
-		(property "Reference" "D22"
+		(property "Reference" "D24"
 			(at 167.64 133.3499 90)
 			(effects
 				(font
@@ -3987,7 +4233,7 @@
 		(instances
 			(project "keyboard"
 				(path "/34419420-7e5e-42c4-9f03-dbda76a14dce"
-					(reference "D22")
+					(reference "D24")
 					(unit 1)
 				)
 			)
@@ -4003,7 +4249,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1d03f20a-01aa-42eb-8755-9044cd66b07d")
-		(property "Reference" "SW18"
+		(property "Reference" "SW19"
 			(at 143.51 123.19 0)
 			(effects
 				(font
@@ -4055,7 +4301,7 @@
 		(instances
 			(project "keyboard"
 				(path "/34419420-7e5e-42c4-9f03-dbda76a14dce"
-					(reference "SW18")
+					(reference "SW19")
 					(unit 1)
 				)
 			)
@@ -4071,7 +4317,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "27312814-4795-45b1-9da4-74f79ffce301")
-		(property "Reference" "D27"
+		(property "Reference" "D29"
 			(at 184.15 133.3499 90)
 			(effects
 				(font
@@ -4143,7 +4389,7 @@
 		(instances
 			(project "keyboard"
 				(path "/34419420-7e5e-42c4-9f03-dbda76a14dce"
-					(reference "D27")
+					(reference "D29")
 					(unit 1)
 				)
 			)
@@ -4159,7 +4405,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "28eb1c41-4a70-46bf-b73a-8a037f8010f5")
-		(property "Reference" "SW19"
+		(property "Reference" "SW21"
 			(at 160.02 88.9 0)
 			(effects
 				(font
@@ -4211,7 +4457,7 @@
 		(instances
 			(project "keyboard"
 				(path "/34419420-7e5e-42c4-9f03-dbda76a14dce"
-					(reference "SW19")
+					(reference "SW21")
 					(unit 1)
 				)
 			)
@@ -4307,7 +4553,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:Jumper_2_Open")
-		(at 118.11 73.66 0)
+		(at 113.03 69.85 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -4316,7 +4562,7 @@
 		(fields_autoplaced yes)
 		(uuid "33bbe5fc-3b5f-40e2-890a-3d9c6ad3abba")
 		(property "Reference" "JP1"
-			(at 118.11 67.31 0)
+			(at 113.03 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4324,7 +4570,7 @@
 			)
 		)
 		(property "Value" "Jumper_2_Open"
-			(at 118.11 69.85 0)
+			(at 113.03 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4332,7 +4578,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
-			(at 118.11 73.66 0)
+			(at 113.03 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4341,7 +4587,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 118.11 73.66 0)
+			(at 113.03 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4350,7 +4596,7 @@
 			)
 		)
 		(property "Description" "Jumper, 2-pole, open"
-			(at 118.11 73.66 0)
+			(at 113.03 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4383,7 +4629,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3644244f-ad25-4e64-ab5f-213093d09b24")
-		(property "Reference" "D11"
+		(property "Reference" "D12"
 			(at 134.62 110.4899 90)
 			(effects
 				(font
@@ -4455,7 +4701,7 @@
 		(instances
 			(project "keyboard"
 				(path "/34419420-7e5e-42c4-9f03-dbda76a14dce"
-					(reference "D11")
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -4471,7 +4717,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3763c7e9-f16a-4d99-acfc-eb8e5b01344e")
-		(property "Reference" "D17"
+		(property "Reference" "D18"
 			(at 151.13 121.9199 90)
 			(effects
 				(font
@@ -4543,7 +4789,7 @@
 		(instances
 			(project "keyboard"
 				(path "/34419420-7e5e-42c4-9f03-dbda76a14dce"
-					(reference "D17")
+					(reference "D18")
 					(unit 1)
 				)
 			)
@@ -4559,7 +4805,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3990ed4a-a45f-4651-a999-82b8549c58b7")
-		(property "Reference" "SW28"
+		(property "Reference" "SW30"
 			(at 176.53 134.62 0)
 			(effects
 				(font
@@ -4611,7 +4857,7 @@
 		(instances
 			(project "keyboard"
 				(path "/34419420-7e5e-42c4-9f03-dbda76a14dce"
-					(reference "SW28")
+					(reference "SW30")
 					(unit 1)
 				)
 			)
@@ -4627,7 +4873,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "39913b70-9777-49c4-8f6a-514d1be8b62f")
-		(property "Reference" "D23"
+		(property "Reference" "D25"
 			(at 167.64 144.7799 90)
 			(effects
 				(font
@@ -4699,7 +4945,7 @@
 		(instances
 			(project "keyboard"
 				(path "/34419420-7e5e-42c4-9f03-dbda76a14dce"
-					(reference "D23")
+					(reference "D25")
 					(unit 1)
 				)
 			)
@@ -4715,7 +4961,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3a931999-6534-42d4-97db-e7aed916d816")
-		(property "Reference" "SW14"
+		(property "Reference" "SW15"
 			(at 127 134.62 0)
 			(effects
 				(font
@@ -4767,7 +5013,7 @@
 		(instances
 			(project "keyboard"
 				(path "/34419420-7e5e-42c4-9f03-dbda76a14dce"
-					(reference "SW14")
+					(reference "SW15")
 					(unit 1)
 				)
 			)
@@ -4783,7 +5029,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b040bcb-da85-494c-a8dc-356294ccba0d")
-		(property "Reference" "D20"
+		(property "Reference" "D22"
 			(at 167.64 110.4899 90)
 			(effects
 				(font
@@ -4855,7 +5101,7 @@
 		(instances
 			(project "keyboard"
 				(path "/34419420-7e5e-42c4-9f03-dbda76a14dce"
-					(reference "D20")
+					(reference "D22")
 					(unit 1)
 				)
 			)
@@ -4871,7 +5117,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "420671cd-a3cd-4e19-8202-cbc5d4de9365")
-		(property "Reference" "SW17"
+		(property "Reference" "SW18"
 			(at 143.51 111.76 0)
 			(effects
 				(font
@@ -4923,7 +5169,7 @@
 		(instances
 			(project "keyboard"
 				(path "/34419420-7e5e-42c4-9f03-dbda76a14dce"
-					(reference "SW17")
+					(reference "SW18")
 					(unit 1)
 				)
 			)
@@ -4939,7 +5185,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "42097f9a-63ee-432b-b6b2-afdd8d8e57e0")
-		(property "Reference" "D15"
+		(property "Reference" "D16"
 			(at 151.13 99.0599 90)
 			(effects
 				(font
@@ -5011,7 +5257,7 @@
 		(instances
 			(project "keyboard"
 				(path "/34419420-7e5e-42c4-9f03-dbda76a14dce"
-					(reference "D15")
+					(reference "D16")
 					(unit 1)
 				)
 			)
@@ -5027,7 +5273,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "47e83fc0-d65b-462c-9015-8d6c9725de4e")
-		(property "Reference" "SW24"
+		(property "Reference" "SW26"
 			(at 176.53 88.9 0)
 			(effects
 				(font
@@ -5079,7 +5325,7 @@
 		(instances
 			(project "keyboard"
 				(path "/34419420-7e5e-42c4-9f03-dbda76a14dce"
-					(reference "SW24")
+					(reference "SW26")
 					(unit 1)
 				)
 			)
@@ -5163,7 +5409,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4e88915b-8201-4460-9c4a-a92d3585b65a")
-		(property "Reference" "SW402"
+		(property "Reference" "SW20"
 			(at 143.51 134.62 0)
 			(effects
 				(font
@@ -5215,7 +5461,7 @@
 		(instances
 			(project "keyboard"
 				(path "/34419420-7e5e-42c4-9f03-dbda76a14dce"
-					(reference "SW402")
+					(reference "SW20")
 					(unit 1)
 				)
 			)
@@ -5231,7 +5477,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4f3b3bda-51f6-46a1-b2d0-6be3c64718c7")
-		(property "Reference" "D13"
+		(property "Reference" "D14"
 			(at 134.62 133.3499 90)
 			(effects
 				(font
@@ -5303,7 +5549,7 @@
 		(instances
 			(project "keyboard"
 				(path "/34419420-7e5e-42c4-9f03-dbda76a14dce"
-					(reference "D13")
+					(reference "D14")
 					(unit 1)
 				)
 			)
@@ -5319,7 +5565,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "56212457-bb9a-48bc-9adc-d1ba1818c7ef")
-		(property "Reference" "D26"
+		(property "Reference" "D28"
 			(at 184.15 121.9199 90)
 			(effects
 				(font
@@ -5391,7 +5637,7 @@
 		(instances
 			(project "keyboard"
 				(path "/34419420-7e5e-42c4-9f03-dbda76a14dce"
-					(reference "D26")
+					(reference "D28")
 					(unit 1)
 				)
 			)
@@ -5407,7 +5653,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "57c89bbf-5888-4a13-ad66-751603ab69e2")
-		(property "Reference" "SW13"
+		(property "Reference" "SW14"
 			(at 127 123.19 0)
 			(effects
 				(font
@@ -5459,7 +5705,7 @@
 		(instances
 			(project "keyboard"
 				(path "/34419420-7e5e-42c4-9f03-dbda76a14dce"
-					(reference "SW13")
+					(reference "SW14")
 					(unit 1)
 				)
 			)
@@ -5467,7 +5713,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 127 73.66 90)
+		(at 121.92 69.85 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5476,7 +5722,7 @@
 		(fields_autoplaced yes)
 		(uuid "60ea5f3c-99d0-4a61-a251-3edcbf8cfde8")
 		(property "Reference" "R5"
-			(at 127 67.31 90)
+			(at 121.92 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5484,7 +5730,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 127 69.85 90)
+			(at 121.92 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5492,7 +5738,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 127 75.438 90)
+			(at 121.92 71.628 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5501,7 +5747,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 127 73.66 0)
+			(at 121.92 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5510,7 +5756,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 127 73.66 0)
+			(at 121.92 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5543,7 +5789,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "62f1ab35-67a5-4966-9c3c-819c40b57328")
-		(property "Reference" "SW23"
+		(property "Reference" "SW25"
 			(at 160.02 134.62 0)
 			(effects
 				(font
@@ -5595,83 +5841,7 @@
 		(instances
 			(project "keyboard"
 				(path "/34419420-7e5e-42c4-9f03-dbda76a14dce"
-					(reference "SW23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x04_Socket")
-		(at 190.5 45.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "63709a05-42b9-4bd9-9430-a820c0177960")
-		(property "Reference" "J1"
-			(at 191.77 45.7199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x04_Socket"
-			(at 191.77 48.2599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
-			(at 190.5 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 190.5 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 190.5 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "bc2e2a52-5865-4744-9430-fd9e6314bf88")
-		)
-		(pin "1"
-			(uuid "cc7e2a39-fd73-4365-be21-c3ef2cf50016")
-		)
-		(pin "3"
-			(uuid "61309874-96d6-41c2-895b-8d2f0b068241")
-		)
-		(pin "2"
-			(uuid "20ec13a0-886e-442d-8430-18a4e6abf0a7")
-		)
-		(instances
-			(project "keyboard"
-				(path "/34419420-7e5e-42c4-9f03-dbda76a14dce"
-					(reference "J1")
+					(reference "SW25")
 					(unit 1)
 				)
 			)
@@ -5687,7 +5857,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "65304756-d989-4992-8994-e98b8888b8fc")
-		(property "Reference" "D16"
+		(property "Reference" "D17"
 			(at 151.13 110.4899 90)
 			(effects
 				(font
@@ -5759,7 +5929,7 @@
 		(instances
 			(project "keyboard"
 				(path "/34419420-7e5e-42c4-9f03-dbda76a14dce"
-					(reference "D16")
+					(reference "D17")
 					(unit 1)
 				)
 			)
@@ -5843,7 +6013,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "69ca5484-8ec0-4eb9-93a2-94ce4b22c699")
-		(property "Reference" "D6"
+		(property "Reference" "D7"
 			(at 118.11 110.4899 90)
 			(effects
 				(font
@@ -5915,7 +6085,7 @@
 		(instances
 			(project "keyboard"
 				(path "/34419420-7e5e-42c4-9f03-dbda76a14dce"
-					(reference "D6")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -6019,7 +6189,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e6ac140-7a71-4d81-a90b-f67843972465")
-		(property "Reference" "SW25"
+		(property "Reference" "SW27"
 			(at 176.53 100.33 0)
 			(effects
 				(font
@@ -6071,7 +6241,7 @@
 		(instances
 			(project "keyboard"
 				(path "/34419420-7e5e-42c4-9f03-dbda76a14dce"
-					(reference "SW25")
+					(reference "SW27")
 					(unit 1)
 				)
 			)
@@ -6087,7 +6257,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "74c468c1-597a-4aa9-8a6e-1412c379e96b")
-		(property "Reference" "SW15"
+		(property "Reference" "SW16"
 			(at 143.51 88.9 0)
 			(effects
 				(font
@@ -6139,7 +6309,7 @@
 		(instances
 			(project "keyboard"
 				(path "/34419420-7e5e-42c4-9f03-dbda76a14dce"
-					(reference "SW15")
+					(reference "SW16")
 					(unit 1)
 				)
 			)
@@ -6155,7 +6325,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "74c59be0-0711-4207-b1ec-6c32c2fc6f16")
-		(property "Reference" "D401"
+		(property "Reference" "D5"
 			(at 101.6 144.7799 90)
 			(effects
 				(font
@@ -6227,7 +6397,7 @@
 		(instances
 			(project "keyboard"
 				(path "/34419420-7e5e-42c4-9f03-dbda76a14dce"
-					(reference "D401")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -6243,7 +6413,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "862161e4-3a70-4b2a-8cc8-111956cf6daa")
-		(property "Reference" "D9"
+		(property "Reference" "D10"
 			(at 118.11 144.7799 90)
 			(effects
 				(font
@@ -6315,7 +6485,7 @@
 		(instances
 			(project "keyboard"
 				(path "/34419420-7e5e-42c4-9f03-dbda76a14dce"
-					(reference "D9")
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -6331,7 +6501,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "86b78b3d-e6da-4474-9331-d3f3234ba0a1")
-		(property "Reference" "SW21"
+		(property "Reference" "SW23"
 			(at 160.02 111.76 0)
 			(effects
 				(font
@@ -6383,7 +6553,7 @@
 		(instances
 			(project "keyboard"
 				(path "/34419420-7e5e-42c4-9f03-dbda76a14dce"
-					(reference "SW21")
+					(reference "SW23")
 					(unit 1)
 				)
 			)
@@ -6399,7 +6569,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8946b07a-7277-4db2-b084-4887ab722781")
-		(property "Reference" "SW27"
+		(property "Reference" "SW29"
 			(at 176.53 123.19 0)
 			(effects
 				(font
@@ -6451,7 +6621,7 @@
 		(instances
 			(project "keyboard"
 				(path "/34419420-7e5e-42c4-9f03-dbda76a14dce"
-					(reference "SW27")
+					(reference "SW29")
 					(unit 1)
 				)
 			)
@@ -6467,7 +6637,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8b2f4181-eb66-4fc5-a0ec-545b093a682a")
-		(property "Reference" "D8"
+		(property "Reference" "D9"
 			(at 118.11 133.3499 90)
 			(effects
 				(font
@@ -6539,7 +6709,7 @@
 		(instances
 			(project "keyboard"
 				(path "/34419420-7e5e-42c4-9f03-dbda76a14dce"
-					(reference "D8")
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -6555,7 +6725,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "91920618-d067-4760-b51a-87b7822f23c2")
-		(property "Reference" "D24"
+		(property "Reference" "D26"
 			(at 184.15 99.0599 90)
 			(effects
 				(font
@@ -6627,7 +6797,7 @@
 		(instances
 			(project "keyboard"
 				(path "/34419420-7e5e-42c4-9f03-dbda76a14dce"
-					(reference "D24")
+					(reference "D26")
 					(unit 1)
 				)
 			)
@@ -6643,7 +6813,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "98a01c71-dacf-4904-a450-6c0e82971a05")
-		(property "Reference" "SW16"
+		(property "Reference" "SW17"
 			(at 143.51 100.33 0)
 			(effects
 				(font
@@ -6695,7 +6865,7 @@
 		(instances
 			(project "keyboard"
 				(path "/34419420-7e5e-42c4-9f03-dbda76a14dce"
-					(reference "SW16")
+					(reference "SW17")
 					(unit 1)
 				)
 			)
@@ -6711,7 +6881,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9aa54e28-65bf-455e-a909-e1b6f0d8fb72")
-		(property "Reference" "D28"
+		(property "Reference" "D30"
 			(at 184.15 144.7799 90)
 			(effects
 				(font
@@ -6783,7 +6953,7 @@
 		(instances
 			(project "keyboard"
 				(path "/34419420-7e5e-42c4-9f03-dbda76a14dce"
-					(reference "D28")
+					(reference "D30")
 					(unit 1)
 				)
 			)
@@ -6799,7 +6969,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9f024e09-3ee3-4b42-9a64-67c6dcf0ec02")
-		(property "Reference" "D402"
+		(property "Reference" "D20"
 			(at 151.13 144.7799 90)
 			(effects
 				(font
@@ -6871,7 +7041,7 @@
 		(instances
 			(project "keyboard"
 				(path "/34419420-7e5e-42c4-9f03-dbda76a14dce"
-					(reference "D402")
+					(reference "D20")
 					(unit 1)
 				)
 			)
@@ -6887,7 +7057,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a61be9f7-392d-4ea2-b149-8fa04624205a")
-		(property "Reference" "SW12"
+		(property "Reference" "SW13"
 			(at 127 111.76 0)
 			(effects
 				(font
@@ -6939,7 +7109,7 @@
 		(instances
 			(project "keyboard"
 				(path "/34419420-7e5e-42c4-9f03-dbda76a14dce"
-					(reference "SW12")
+					(reference "SW13")
 					(unit 1)
 				)
 			)
@@ -6955,7 +7125,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a7be390c-cfdd-4b32-8fd3-cfb40659d8cd")
-		(property "Reference" "SW7"
+		(property "Reference" "SW8"
 			(at 110.49 111.76 0)
 			(effects
 				(font
@@ -7007,7 +7177,7 @@
 		(instances
 			(project "keyboard"
 				(path "/34419420-7e5e-42c4-9f03-dbda76a14dce"
-					(reference "SW7")
+					(reference "SW8")
 					(unit 1)
 				)
 			)
@@ -7023,7 +7193,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a9c6586f-1513-4adc-abb8-c3fb384af992")
-		(property "Reference" "SW20"
+		(property "Reference" "SW22"
 			(at 160.02 100.33 0)
 			(effects
 				(font
@@ -7075,7 +7245,7 @@
 		(instances
 			(project "keyboard"
 				(path "/34419420-7e5e-42c4-9f03-dbda76a14dce"
-					(reference "SW20")
+					(reference "SW22")
 					(unit 1)
 				)
 			)
@@ -7083,7 +7253,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 120.65 50.8 0)
+		(at 115.57 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7092,7 +7262,7 @@
 		(fields_autoplaced yes)
 		(uuid "ac0a229c-af05-42bb-8e78-cec0984784db")
 		(property "Reference" "R2"
-			(at 123.19 49.5299 0)
+			(at 118.11 45.7199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7101,7 +7271,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 123.19 52.0699 0)
+			(at 118.11 48.2599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7110,7 +7280,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 118.872 50.8 90)
+			(at 113.792 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7119,7 +7289,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 120.65 50.8 0)
+			(at 115.57 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7128,7 +7298,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 120.65 50.8 0)
+			(at 115.57 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7153,7 +7323,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 114.3 50.8 0)
+		(at 109.22 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7162,7 +7332,7 @@
 		(fields_autoplaced yes)
 		(uuid "ae6da2a0-6c3e-4d3d-aa41-8f4282db4d8f")
 		(property "Reference" "R1"
-			(at 116.84 49.5299 0)
+			(at 111.76 45.7199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7171,7 +7341,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 116.84 52.0699 0)
+			(at 111.76 48.2599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7180,7 +7350,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 112.522 50.8 90)
+			(at 107.442 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7189,7 +7359,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 114.3 50.8 0)
+			(at 109.22 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7198,7 +7368,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 114.3 50.8 0)
+			(at 109.22 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7223,7 +7393,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Audio:AudioJack4")
-		(at 104.14 55.88 0)
+		(at 99.06 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7232,7 +7402,7 @@
 		(fields_autoplaced yes)
 		(uuid "ae71c45d-f919-4008-94ad-b60e2b2df09b")
 		(property "Reference" "JC1"
-			(at 101.6 46.99 0)
+			(at 96.52 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7240,7 +7410,7 @@
 			)
 		)
 		(property "Value" "AudioJack4"
-			(at 101.6 49.53 0)
+			(at 96.52 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7248,7 +7418,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Audio:Jack_3.5mm_PJ320E_Horizontal"
-			(at 104.14 55.88 0)
+			(at 99.06 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7257,7 +7427,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 104.14 55.88 0)
+			(at 99.06 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7266,7 +7436,7 @@
 			)
 		)
 		(property "Description" "Audio Jack, 4 Poles (TRRS)"
-			(at 104.14 55.88 0)
+			(at 99.06 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7305,7 +7475,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "af698127-b30f-4119-a378-32f38e0cef8e")
-		(property "Reference" "SW6"
+		(property "Reference" "SW7"
 			(at 110.49 100.33 0)
 			(effects
 				(font
@@ -7357,7 +7527,7 @@
 		(instances
 			(project "keyboard"
 				(path "/34419420-7e5e-42c4-9f03-dbda76a14dce"
-					(reference "SW6")
+					(reference "SW7")
 					(unit 1)
 				)
 			)
@@ -7373,7 +7543,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "afe63f70-6800-4dce-be8d-71723d30c0a4")
-		(property "Reference" "D10"
+		(property "Reference" "D11"
 			(at 134.62 99.0599 90)
 			(effects
 				(font
@@ -7445,7 +7615,7 @@
 		(instances
 			(project "keyboard"
 				(path "/34419420-7e5e-42c4-9f03-dbda76a14dce"
-					(reference "D10")
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -7461,7 +7631,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b21e2cdd-ca75-4f6f-9564-441dfdff81f7")
-		(property "Reference" "SW8"
+		(property "Reference" "SW9"
 			(at 110.49 123.19 0)
 			(effects
 				(font
@@ -7513,7 +7683,7 @@
 		(instances
 			(project "keyboard"
 				(path "/34419420-7e5e-42c4-9f03-dbda76a14dce"
-					(reference "SW8")
+					(reference "SW9")
 					(unit 1)
 				)
 			)
@@ -7529,7 +7699,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba07b2d9-f914-4efe-9a51-f5a4bdfabd78")
-		(property "Reference" "SW5"
+		(property "Reference" "SW6"
 			(at 110.49 88.9 0)
 			(effects
 				(font
@@ -7581,7 +7751,7 @@
 		(instances
 			(project "keyboard"
 				(path "/34419420-7e5e-42c4-9f03-dbda76a14dce"
-					(reference "SW5")
+					(reference "SW6")
 					(unit 1)
 				)
 			)
@@ -7597,7 +7767,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb8c2355-e919-4dad-b8ef-a5f711069831")
-		(property "Reference" "SW10"
+		(property "Reference" "SW11"
 			(at 127 88.9 0)
 			(effects
 				(font
@@ -7649,7 +7819,7 @@
 		(instances
 			(project "keyboard"
 				(path "/34419420-7e5e-42c4-9f03-dbda76a14dce"
-					(reference "SW10")
+					(reference "SW11")
 					(unit 1)
 				)
 			)
@@ -7665,7 +7835,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c1b17dfe-d422-40e0-9924-9bacde17b271")
-		(property "Reference" "D12"
+		(property "Reference" "D13"
 			(at 134.62 121.9199 90)
 			(effects
 				(font
@@ -7737,7 +7907,7 @@
 		(instances
 			(project "keyboard"
 				(path "/34419420-7e5e-42c4-9f03-dbda76a14dce"
-					(reference "D12")
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -7753,7 +7923,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c2db13ea-9ffc-4745-b84b-57455092c2c4")
-		(property "Reference" "SW401"
+		(property "Reference" "SW5"
 			(at 93.98 134.62 0)
 			(effects
 				(font
@@ -7769,7 +7939,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:keyswitch_cherrymx_hotswap_2u"
+		(property "Footprint" "kbd:keyswitch_cherrymx_hotswap_1u"
 			(at 93.98 137.16 0)
 			(effects
 				(font
@@ -7805,7 +7975,89 @@
 		(instances
 			(project "keyboard"
 				(path "/34419420-7e5e-42c4-9f03-dbda76a14dce"
-					(reference "SW401")
+					(reference "SW5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x06_Socket")
+		(at 201.93 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c4a28df6-5b17-4967-bb3d-8b5a9cb51e85")
+		(property "Reference" "J1"
+			(at 203.2 44.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x06_Socket"
+			(at 203.2 46.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
+			(at 201.93 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 201.93 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x06, script generated"
+			(at 201.93 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e357af9a-f9f2-44c9-b030-7b615614af04")
+		)
+		(pin "2"
+			(uuid "726440d6-16ee-49a8-bfae-ae4dbd7dda3d")
+		)
+		(pin "6"
+			(uuid "be08151a-b1e9-44fc-97e0-0de7723a00bf")
+		)
+		(pin "4"
+			(uuid "a02e5740-6495-457c-8568-76f2f4b74c61")
+		)
+		(pin "5"
+			(uuid "796cbab0-f174-4bb3-8df0-e4fd4306d839")
+		)
+		(pin "3"
+			(uuid "660bd5ec-70b7-4a27-bd72-d0c563c0f4d6")
+		)
+		(instances
+			(project "keyboard"
+				(path "/34419420-7e5e-42c4-9f03-dbda76a14dce"
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -7821,7 +8073,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c7fbbb17-5757-4d8c-961d-7a448016f7b2")
-		(property "Reference" "SW26"
+		(property "Reference" "SW28"
 			(at 176.53 111.76 0)
 			(effects
 				(font
@@ -7873,7 +8125,7 @@
 		(instances
 			(project "keyboard"
 				(path "/34419420-7e5e-42c4-9f03-dbda76a14dce"
-					(reference "SW26")
+					(reference "SW28")
 					(unit 1)
 				)
 			)
@@ -7889,7 +8141,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cdc06fda-038b-403a-8ebf-ef87965aa61d")
-		(property "Reference" "D7"
+		(property "Reference" "D8"
 			(at 118.11 121.9199 90)
 			(effects
 				(font
@@ -7961,7 +8213,7 @@
 		(instances
 			(project "keyboard"
 				(path "/34419420-7e5e-42c4-9f03-dbda76a14dce"
-					(reference "D7")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -7977,7 +8229,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cfb54992-b9b7-458d-9e8b-b61eaf0377ed")
-		(property "Reference" "SW22"
+		(property "Reference" "SW24"
 			(at 160.02 123.19 0)
 			(effects
 				(font
@@ -8029,7 +8281,7 @@
 		(instances
 			(project "keyboard"
 				(path "/34419420-7e5e-42c4-9f03-dbda76a14dce"
-					(reference "SW22")
+					(reference "SW24")
 					(unit 1)
 				)
 			)
@@ -8113,7 +8365,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d446d709-7ee4-4122-bb5a-e3bcda83ce9a")
-		(property "Reference" "D19"
+		(property "Reference" "D21"
 			(at 167.64 99.0599 90)
 			(effects
 				(font
@@ -8185,7 +8437,7 @@
 		(instances
 			(project "keyboard"
 				(path "/34419420-7e5e-42c4-9f03-dbda76a14dce"
-					(reference "D19")
+					(reference "D21")
 					(unit 1)
 				)
 			)
@@ -8201,7 +8453,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d77c9436-e486-4765-8534-9de83f6d96b8")
-		(property "Reference" "D21"
+		(property "Reference" "D23"
 			(at 167.64 121.9199 90)
 			(effects
 				(font
@@ -8273,7 +8525,7 @@
 		(instances
 			(project "keyboard"
 				(path "/34419420-7e5e-42c4-9f03-dbda76a14dce"
-					(reference "D21")
+					(reference "D23")
 					(unit 1)
 				)
 			)
@@ -8281,7 +8533,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
-		(at 154.94 50.8 0)
+		(at 149.86 46.99 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8290,7 +8542,7 @@
 		(dnp no)
 		(uuid "daf3f63a-138d-41f2-81ee-cd47911c8c0c")
 		(property "Reference" "J3"
-			(at 153.67 50.7999 0)
+			(at 148.59 46.9899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8299,7 +8551,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Socket"
-			(at 153.67 53.3399 0)
+			(at 148.59 49.5299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8308,7 +8560,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 154.94 50.8 0)
+			(at 149.86 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8317,7 +8569,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 154.94 50.8 0)
+			(at 149.86 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8326,7 +8578,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 154.94 50.8 0)
+			(at 149.86 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8359,7 +8611,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e1d22d38-ad61-4c9b-a8c5-497c61b33971")
-		(property "Reference" "SW11"
+		(property "Reference" "SW12"
 			(at 127 100.33 0)
 			(effects
 				(font
@@ -8411,7 +8663,7 @@
 		(instances
 			(project "keyboard"
 				(path "/34419420-7e5e-42c4-9f03-dbda76a14dce"
-					(reference "SW11")
+					(reference "SW12")
 					(unit 1)
 				)
 			)
@@ -8515,7 +8767,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e733219e-21cb-4efb-ada7-c809834ce260")
-		(property "Reference" "SW9"
+		(property "Reference" "SW10"
 			(at 110.49 134.62 0)
 			(effects
 				(font
@@ -8567,7 +8819,7 @@
 		(instances
 			(project "keyboard"
 				(path "/34419420-7e5e-42c4-9f03-dbda76a14dce"
-					(reference "SW9")
+					(reference "SW10")
 					(unit 1)
 				)
 			)
