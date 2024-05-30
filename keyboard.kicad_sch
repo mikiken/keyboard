@@ -5462,7 +5462,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mcu:rp2040-zero-tht"
+		(property "Footprint" "mcu:rp2040-zero-smd_reverse_flush_A"
 			(at 88.9 48.26 0)
 			(effects
 				(font
@@ -9835,7 +9835,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mcu:rp2040-zero-tht"
+		(property "Footprint" "mcu:rp2040-zero-smd_reverse_flush_B"
 			(at 223.52 48.26 0)
 			(effects
 				(font
